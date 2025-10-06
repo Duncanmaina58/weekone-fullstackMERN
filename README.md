@@ -1,18 +1,56 @@
-# 📚 PLP MongoDB Week 1 Assignment
+Author
 
-## 👨‍💻 Author
-**Duncan Nyaga Maina**
+Name: Duncan Nyaga Maina
+Email: dun.can.duntez@gmail.com
 
-## 🧩 Overview
-This project demonstrates MongoDB fundamentals:
-- Database & collection creation
-- CRUD operations
-- Advanced queries with projection, sorting, pagination
-- Aggregation pipelines
-- Indexing for performance optimization
+GitHub: Duncanmaina58
 
-## 🛠️ Setup Instructions
-1. Open your terminal or MongoDB Shell (mongosh)
-2. Run:
-   ```bash
-   mongosh < insert_books.js
+🧩 Project Overview
+
+This project demonstrates my understanding of MongoDB fundamentals and advanced data layer techniques as part of the Power Learn Project (PLP) MERN Stack Development program.
+
+It covers:
+
+Database setup (local or Atlas)
+
+CRUD operations (Create, Read, Update, Delete)
+
+Advanced query techniques (filtering, sorting, projection, pagination)
+
+Aggregation pipelines for data analysis
+
+Indexing for performance optimization
+
+🚀 Objectives
+
+The main objective of this assignment is to:
+
+Learn how to create and manage a MongoDB database.
+
+Understand and perform CRUD operations on a dataset.
+
+Practice advanced queries such as filtering, projection, and sorting.
+
+Implement aggregation pipelines for data transformation and analytics.
+
+Create and test indexes for optimized performance.
+
+🛠️ Setup Instructions
+Option 1: Run Locally (MongoDB Community Edition)
+
+Install MongoDB Community Edition on your local machine:
+👉 https://www.mongodb.com/try/download/community
+
+Open MongoDB Shell (mongosh).
+
+Run the following command to insert data:
+
+mongosh < insert_books.js
+
+
+Then execute your queries:
+
+mongosh < queries.js
+
+
+Open MongoDB Compass and confirm that your database and data are visible.
